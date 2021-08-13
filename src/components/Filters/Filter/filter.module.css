@@ -1,7 +1,9 @@
 .filter {
     position: relative;
 }
-
+.mobile {
+    display: none;
+}
 .active:after {
     content: '';
     position: absolute;
@@ -22,5 +24,8 @@
 @media (max-width: 700px) {
     .filter{
         position: initial;
+    }
+    .mobile {
+        display: block;
     }
 }

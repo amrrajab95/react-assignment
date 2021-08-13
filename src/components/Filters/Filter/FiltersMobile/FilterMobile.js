@@ -7,7 +7,7 @@ import SlideDown from "../../../UI/SlideDown/SlideDown";
 
 const Filter = (props) => {
 
-    const classesName = [classes.filter, props.isMoreFilterClicked ? classes.active : ""];
+    const classesName = [classes.filter, props.isMoreFilterClicked ? classes.active : "",classes.mobile];
     const filterKeys=Object.keys(props.filters);
      filterKeys.splice(0, 2);
     let filtersObj = {};

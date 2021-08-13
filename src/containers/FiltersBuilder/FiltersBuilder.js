@@ -409,7 +409,7 @@ class FiltersBuilder extends Component {
                             />
                         )
                     }
-                    <FilterMobile isMoreFilterClicked={this.state.moreFilterClicked}
+                    <FilterMobile className={classes.mobile} isMoreFilterClicked={this.state.moreFilterClicked}
                                   moreClicked={this.moreFilterClicked} filters={this.state.filters}
                                   filterOptionClick={this.filterAddValue}
                                   filterClicked={this.filterOnClick}
