@@ -1,0 +1,39 @@
+.f_header {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px solid #9c9c9c;
+    background-color: #fdfdfd;
+}
+
+.f_header > div + div {
+    padding-left: 15px;
+}
+
+@media (max-width: 700px) {
+    .f_header {
+        position: relative;
+    }
+
+    .f_header > div {
+        display: none;
+    }
+
+    .f_header > div {
+        width: auto;
+    }
+
+    .f_header > div button {
+        width: 100%;
+    }
+
+    .f_header > div:nth-child(-n + 2) {
+        display: block;
+    }
+
+    .f_header > div:last-child {
+        display: block;
+    }
+}
+

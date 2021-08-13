@@ -1,0 +1,36 @@
+.Button {
+    background-color: transparent;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    border: 1px solid #d8d8d8;
+    padding: 7px 20px;
+    font-weight: 500;
+    transition: all 0.2s linear;
+}
+
+
+.active {
+    border: 1px solid red;
+    transition: all 0.2s linear;
+}
+
+button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+button.apply {
+    margin-left: auto;
+}
+
+.clear {
+    transition: all 0.2s linear;
+
+}
+
+.clear:hover {
+    background-color: red;
+    color: #ffffff;
+}
